@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>CloudFlare邮箱转发功能，实现域名邮箱收信</title>
+    <link href="/posts/8.html"/>
+    <url>/posts/8.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在我们需要使用自己的域名作为邮箱地址时，可能大家第一个想到的就是企业邮箱。但是对于我们这种白嫖党而言，一般只需要收件即可。那么除了企业邮箱之外，有没有可选的替代品？答案还真有，并且就在大家常用的 CloudFlare 中。这篇教程就来和大家一起了解并使用 CloudFlare 的邮件转发功能</p><h2 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h2><ul><li>一个 添加了域名的 CloudFlare 账户</li></ul><h2 id="开始教学"><a href="#开始教学" class="headerlink" title="开始教学"></a>开始教学</h2><ol><li>打开 CloudFlare 控制台，然后进入自己嗦想要的域名的管理页面。点击 电子邮件。输入你自定义的域名前缀和需要收件的邮箱号</li></ol><p><img src="https://www.wcnb.love/file/5af60ec322edf067e80af.png"></p><p>然后去自己邮箱验证一下邮箱</p><p><img src="https://www.wcnb.love/file/0493f5ef788743f80ced3.png"></p><ol start="2"><li>第一次使用需要添加域名邮箱的 MX 和 TXT 记录，点击“Add records and enable”按钮会自动添加 DNS 记录</li></ol><p>我这里不小心退出了一下，没事，按照教程走就是了</p><p><img src="https://www.wcnb.love/file/e2a91d1c9381af6a57d7f.png"></p><ol start="3"><li>我们测试一下，收件情况，完美. 教程结束.</li></ol><p><img src="https://www.wcnb.love/file/b3b637bd1ce8012cba2a2.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>CloudFlare</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>CloudFlare</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>AI视频换脸-无需电脑CPU</title>
+    <link href="/posts/7.html"/>
+    <url>/posts/7.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul><li>这个项目的话，本地也可以运行，但是吃cup，配置不好的就不能用</li><li>这章帖子，就教大家怎么配置低也能使用</li><li>其实这个AI视频换脸教程，在6月份的时候我已经写过视频教程了。</li><li>但是博客还没有写过图文 哈哈 不知道更新什么 就再写一份吧</li></ul><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ul><li>谷歌账号 （没有的话，就注册一个）</li><li>机场  <a href="https://ikuuu.art/auth/register?code=bOTa">点我获取免费机场</a> </li><li>要换脸的视频和图片</li></ul><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>首先<a href="http://ikun6.love/6w1Px">点我进入</a>  功能界面 登录谷歌账号后  右上角 <strong>点击运行</strong></p><p>然后查看有没有 <strong>GPU</strong></p><p><img src="https://www.wcnb.love/file/98b495c7a6045b4bb1750.png"></p><p>如果没有GPU的话就点击下面更换即可  </p><p><img src="https://www.wcnb.love/file/2be3c5db7b66110e81e6c.png"></p><h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p>首先运行  等待一会 让它自动安装 安装完成</p><p><img src="https://www.wcnb.love/file/3e7393cd8853d41bf3d0a.png"></p><p>把你需要修改的图片和视频文件名重命名为 简单的名字  比如</p><blockquote><p>77.png<br>77.mp4</p></blockquote><p>然后 打开 文件夹  进入roop 文件夹 把你需要换脸的视频和图片上传上去</p><p><img src="https://www.wcnb.love/file/31a8e35b2ecb8bcb5960c.png"></p><h2 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h2><p>修改代码  把这里代码 修改为 对应的图片和视频文件名，最后运行 ，等待它更改成功 </p><p><img src="https://www.wcnb.love/file/9f81d8da8d651f7660443.png"></p><h2 id="第四步"><a href="#第四步" class="headerlink" title="第四步"></a>第四步</h2><p>最后呢 就把它下载出来 就OK了  </p><p><img src="https://www.wcnb.love/file/608c0255549af5c5f0fdf.png"></p><h4 id="成品演示："><a href="#成品演示：" class="headerlink" title="成品演示："></a>成品演示：</h4><p><img src="https://www.wcnb.love/file/f40bd10500985e947d861.png"></p><h4 id="最后，拿走记得吱一声，有什么问题就在下面留言，记得填写邮箱欧，这样会有邮箱提醒"><a href="#最后，拿走记得吱一声，有什么问题就在下面留言，记得填写邮箱欧，这样会有邮箱提醒" class="headerlink" title="最后，拿走记得吱一声，有什么问题就在下面留言，记得填写邮箱欧，这样会有邮箱提醒"></a>最后，拿走记得吱一声，有什么问题就在下面留言，记得填写邮箱欧，这样会有邮箱提醒</h4>]]></content>
+    
+    
+    <categories>
+      
+      <category>AI</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>AI视频换脸</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>博客内容更新需求建议帖</title>
+    <link href="/posts/5.html"/>
+    <url>/posts/5.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本来计划说一天一更新，但是想来想去，不知道更</p><p>新什么好，网上到处都是的我又觉得太平常了。但</p><p>是我也不知道什么东西觉得可。</p><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>所以想来想去，想不到，那就干脆发个帖子好了。</p><p>就是说，你们有什么想要，或者什么想法啥的，都</p><p>可以在这个帖子下面评论，然后，如果我找到，或</p><p>者是我会的话，到时候发帖子我会回复你</p><blockquote><p>评论最好就是要输入邮箱，以为博客接入了邮箱通知，到时候我写出来了，你就会有邮箱通知哈。</p></blockquote><blockquote><p>建议QQ邮箱，然后绑定到微信上面，这样子，即使不登QQ，收到微信也有提示！</p></blockquote><p>当然，我肯定也不是全能的哈，但是我尽量弄出来</p><p>之所以搞这个博客，就是以为太闲咧。到时候你们说出需求，然后我又学到新东西了</p><p>就是一箭双雕哈哈</p><p>好了，不写作文了，就这个样子。</p><p>本博客长期运营哈，毕竟，不需要啥成本。</p><blockquote><p>当然，我也没想过把这个东西做好大哈，纯属就是我自己无聊打发时间用咧，所以，即使没人看我也要发</p></blockquote><p>溜溜球了。</p><p>对了，想听音乐的，可以去 关于 里面，有播放器。</p><p>晚安～</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>需求</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>免费看知乎盐选安卓-PC端</title>
+    <link href="/posts/4.html"/>
+    <url>/posts/4.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>总所周知，知乎盐选呢，是需要开会员才能看</p><p>而且还不便宜，本教程让你实现，无需开会员即看</p><h2 id="需要的工具"><a href="#需要的工具" class="headerlink" title="需要的工具"></a>需要的工具</h2><blockquote><p>安卓端</p></blockquote><ul><li>Termux</li><li>老秦知乎查看器.apk</li></ul><blockquote><p>PC端</p></blockquote><ul><li>老秦免费看知乎盐选.exe</li></ul><h2 id="首先是安卓端教程"><a href="#首先是安卓端教程" class="headerlink" title="首先是安卓端教程"></a>首先是安卓端教程</h2><h4 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h4><p>下载安装 <strong>Termux</strong> ，软件我会在最后打包</p><p>给它 <strong>读写手机储存</strong> 权限  </p><p><img src="https://www.wcnb.love/file/944d0333543fb72a86f2b.jpg"></p><h4 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h4><p>输入命令 回车 让它自动安装环境</p><pre><code class="hljs">bash &lt;(curl -L -s https://wcnb.love/laoqin.sh )</code></pre><p><img src="https://www.wcnb.love/file/97c77ffc0266f64a8520b.jpg"></p><p>安装完毕后会自动进界面</p><p>然后怎么搜索呢， 一定是搜索 <strong>小说的名字</strong> ！！</p><p><img src="https://www.wcnb.love/file/910fecc6fc0af1894e405.jpg"></p><p>就比如这本  只需要搜索 <strong>许你一世共逍遥</strong> 即可</p><p>不能输什么 : 号，不然会搜不到</p><p><img src="https://www.wcnb.love/file/160f6586b0b678ce7c1b1.jpg"></p><p>搜索到以后呢</p><p>输入要看的小说名和章节的序号即可 </p><p><img src="https://www.wcnb.love/file/a8d8f4660bcc053d9cd42.jpg"></p><p><img src="https://www.wcnb.love/file/e071c68af2d43dc96ac97.jpg"></p><p><img src="https://www.wcnb.love/file/273f3c1b1bddd94c6de35.jpg"></p><h3 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h3><p>提示写入成功后呢，打开 老秦知乎盐选APP即可查看</p><p><img src="https://www.wcnb.love/file/053e805f69741abe83e34.jpg"></p><p><img src="https://www.wcnb.love/file/ff72a6fc85b21eea5ed6e.jpg"></p><h2 id="PC端"><a href="#PC端" class="headerlink" title="PC端"></a>PC端</h2><p>pc端就超级简单了，直接打开老秦免费知乎盐选.exe</p><p>搜索小说名字，查看对应的章节，小说就会出现在桌面上，打开即可观看</p><p>这里我没开电脑，就不截图了哈</p><h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>手机每次需要查看小说的时候，只需要重新输入</p><pre><code class="hljs">bash &lt;(curl -L -s https://wcnb.love/laoqin.sh )</code></pre><p>即可，电脑端的随时打开就是   </p><h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><ul><li>安卓端<br><a href="http://47.115.229.140:5244/d/%E5%85%8D%E8%B4%B9%E7%9C%8B%E7%9F%A5%E4%B9%8E%E7%9B%90%E9%80%89%E6%95%99%E7%A8%8B/%E5%AE%89%E5%8D%93%E7%89%88%E6%9C%AC/%E7%BB%88%E7%AB%AF.apk">Termux</a><br><a href="http://47.115.229.140:5244/d/%E5%85%8D%E8%B4%B9%E7%9C%8B%E7%9F%A5%E4%B9%8E%E7%9B%90%E9%80%89%E6%95%99%E7%A8%8B/%E5%AE%89%E5%8D%93%E7%89%88%E6%9C%AC/%E8%80%81%E7%A7%A6%E5%85%8D%E8%B4%B9%E7%9F%A5%E4%B9%8E%E7%9B%90%E9%80%89.apk">老秦查看端</a></li><li>PC端<br><a href="http://47.115.229.140:5244/d/%E5%85%8D%E8%B4%B9%E7%9C%8B%E7%9F%A5%E4%B9%8E%E7%9B%90%E9%80%89%E6%95%99%E7%A8%8B/%E7%94%B5%E8%84%91%E7%89%88%E6%9C%AC/%E8%80%81%E7%A7%A6%E7%9F%A5%E4%B9%8E%E7%9B%90%E9%80%89.exe">老秦免费知乎盐选</a></li></ul><p>最后如果你们想要源码的话，在下面评论一下，我给你们发哈</p><p>ps:大哥们看完记得评论一下，没得人的感觉好不舒服 哈哈 谢谢</p><p> <strong>教程结束  有能力的老板 咳咳 疯狂暗示</strong></p><p><img src="https://www.wcnb.love/file/c61cfaf1006a772e6b285.png" alt="赞赏"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>知乎</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>知乎</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Telegram自动签到-解放双手</title>
+    <link href="/posts/6.html"/>
+    <url>/posts/6.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul><li><p>Telegram自动签到，可以免除手动进电报发送签到</p></li><li><p>可用于自动签到 机场 丶轰炸机丶社工 啥的…</p></li><li><p>我是Fork了项目，然后针对推送信息进行了简化。如果需要复杂的推送信息可以查看原地址</p></li><li><p>项目地址：<a href="https://github.com/vysheng/tg">https://github.com/vysheng/tg</a></p></li></ul><h2 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h2><p><img src="https://www.wcnb.love/file/504f171d22722b6e0617d.jpg">  </p><h2 id="Telegram-cli-安装编译"><a href="#Telegram-cli-安装编译" class="headerlink" title="Telegram-cli 安装编译"></a>Telegram-cli 安装编译</h2><p>1.下载Telegram-cli</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">git clone --recursive https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/vysheng/</span>tg.git &amp;&amp; cd tg<br></code></pre></td></tr></table></figure><p>2.安装依赖</p><figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs q">#Debian系统<br>sudo apt-<span class="hljs-built_in">get</span> <span class="hljs-keyword">update</span><br>sudo apt-<span class="hljs-built_in">get</span> install libreadline-<span class="hljs-built_in">dev</span> libconfig-<span class="hljs-built_in">dev</span> libssl-<span class="hljs-built_in">dev</span> lua5<span class="hljs-number">.2</span> liblua5<span class="hljs-number">.2</span>-<span class="hljs-built_in">dev</span> libevent-<span class="hljs-built_in">dev</span> libjansson-<span class="hljs-built_in">dev</span> libpython-<span class="hljs-built_in">dev</span> make<br>#Centos <span class="hljs-number">7</span> 系统<br>yum -y install lua-devel openssl-devel libconfig-devel readline-devel libevent-devel jansson-devel python-devel gcc <br>./configure<br>make<br></code></pre></td></tr></table></figure><p>3.激活Telegram API</p><p>在<a href="https://my.telegram.org/apps">https://my.telegram.org/apps</a> 里申请一个 <strong>key</strong> ，然后复制保存下来，登录账号记得要打国际区号</p><p><img src="https://www.wcnb.love/file/d2555424d1c812a709c69.png">  </p><p>输入验证码后，将获取到的key保存成 <strong>pub</strong> 文件</p><p><img src="https://www.wcnb.love/file/bbbde1c9c74395413ac18.png">  </p><pre><code class="hljs">vi /root/tg-server.pub</code></pre><p>4.测试</p><pre><code class="hljs">/root/tg/bin/telegram-cli -k /root/tg-server.pub</code></pre><p>登陆成功后按下Ctrl+C退出</p><h2 id="创建自动运行脚本"><a href="#创建自动运行脚本" class="headerlink" title="创建自动运行脚本"></a>创建自动运行脚本</h2><pre><code class="hljs">cd /rootvi autotg.sh</code></pre><p>复制以下内容进去，用你自己的频道和check-in的指令，请注意，因为telegram-cli的特殊形式，指令或频道名中包含的所有空格必须转换成下划线：</p><pre><code class="hljs">#!/bin/bash#Author: yikZero/root/tg/bin/telegram-cli -W -e &quot;msg &lt;频道&gt; &lt;check-in的指令&gt;&quot;</code></pre><p>保存后给脚本执行权限</p><pre><code class="hljs">chmod +x autotg.sh</code></pre><p>测试</p><pre><code class="hljs">bash autotg.sh</code></pre><h2 id="添加定时脚本"><a href="#添加定时脚本" class="headerlink" title="添加定时脚本"></a>添加定时脚本</h2><p>编辑 crontab</p><pre><code class="hljs">crontab -e</code></pre><p>添加如下两条记录</p><p>(每天签到一次，十二小时后补签一次，要注意服务器的时区)</p><pre><code class="hljs">30 2 * * * bash /root/autotg.sh30 14 * * * bash /root/autotg.sh</code></pre>]]></content>
+    
+    
+    <categories>
+      
+      <category>电报</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>电报</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>青龙面板-哔哩哔哩动态抽奖</title>
+    <link href="/posts/3.html"/>
+    <url>/posts/3.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul><li><p>哔哩哔哩动态抽奖，就是up主商家等让用户转发动态，抽取用户送出奖励 </p></li><li><p>亲测挂了两个月 中了一次 50元京东卡 。这个东西是看运气的哈</p></li></ul><h2 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h2><ul><li><p>青龙面板 </p></li><li><p>哔哩哔哩号</p></li></ul><h2 id="搭建脚本"><a href="#搭建脚本" class="headerlink" title="搭建脚本"></a>搭建脚本</h2><h3 id="在青龙面板新建脚本目录"><a href="#在青龙面板新建脚本目录" class="headerlink" title="在青龙面板新建脚本目录"></a>在青龙面板新建脚本目录</h3><p>新建脚本目录名称为 <strong>Lottery_init.sh</strong>  ，把复制好的脚本代码粘贴进去</p><p>1.脚本代码</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-meta">#!/bin/env bash</span><br><span class="hljs-built_in">set</span> -e<br><br>NAME=LotteryAutoScript<br><br><span class="hljs-comment"># 视网络情况选择链接</span><br>GIT_REPO=https://github.com/shanmiteko/<span class="hljs-variable">$&#123;NAME&#125;</span>.git<br><span class="hljs-comment"># GIT_REPO=https://ghproxy.com/https://github.com/shanmiteko/$&#123;NAME&#125;.git</span><br><br><span class="hljs-keyword">if</span> [ -d <span class="hljs-string">&quot;<span class="hljs-variable">$NAME</span>&quot;</span> ]; <span class="hljs-keyword">then</span><br>    <span class="hljs-built_in">cd</span> <span class="hljs-variable">$NAME</span><br>    git pull<br>    <span class="hljs-built_in">cd</span> ..<br><span class="hljs-keyword">else</span><br>    git <span class="hljs-built_in">clone</span> <span class="hljs-variable">$GIT_REPO</span> <span class="hljs-variable">$NAME</span> --depth=1<br><span class="hljs-keyword">fi</span><br><br><span class="hljs-keyword">if</span> [ -f <span class="hljs-string">&quot;<span class="hljs-variable">$NAME</span>/my_config.js&quot;</span> ]; <span class="hljs-keyword">then</span><br>    <span class="hljs-built_in">echo</span> <span class="hljs-string">&#x27;my_config 已存在&#x27;</span><br><span class="hljs-keyword">else</span><br>    <span class="hljs-built_in">cp</span> <span class="hljs-variable">$NAME</span>/my_config.example.js <span class="hljs-variable">$NAME</span>/my_config.js<br><span class="hljs-keyword">fi</span><br><br><span class="hljs-keyword">if</span> [ -f <span class="hljs-string">&quot;<span class="hljs-variable">$NAME</span>/env.js&quot;</span> ]; <span class="hljs-keyword">then</span><br>    <span class="hljs-built_in">echo</span> <span class="hljs-string">&#x27;env.js 已存在&#x27;</span><br><span class="hljs-keyword">else</span><br>    <span class="hljs-built_in">cp</span> <span class="hljs-variable">$NAME</span>/env.example.js <span class="hljs-variable">$NAME</span>/env.js<br><span class="hljs-keyword">fi</span><br><br><span class="hljs-keyword">function</span> <span class="hljs-function"><span class="hljs-title">create</span></span>() &#123;<br>    <span class="hljs-built_in">cat</span> &gt;<span class="hljs-string">&quot;<span class="hljs-variable">$&#123;NAME&#125;</span>_<span class="hljs-variable">$1</span>.sh&quot;</span> &lt;&lt;<span class="hljs-string">EOF</span><br><span class="hljs-string">#!/bin/env bash</span><br><span class="hljs-string">cd $NAME</span><br><span class="hljs-string">npm run $1</span><br><span class="hljs-string">EOF</span><br>&#125;<br><br>create start<br>create check<br>create clear<br><br><span class="hljs-built_in">cd</span> <span class="hljs-variable">$NAME</span><br>npm i<br><br></code></pre></td></tr></table></figure><p><img src="https://www.wcnb.love/file/dc66163418a40939231e8.jpg">  </p><p>2.保存好 点击调试</p><p><img src="https://www.wcnb.love/file/dfa679c50919ebef701ba.jpg">  </p><p>3.选第一个 点击运行 结束 保存 确定</p><p><img src="https://www.wcnb.love/file/9b72794b15c2e12adc3f0.jpg">  </p><p>4.选择第三个 点击运行 结束 保存 确定</p><p><img src="https://www.wcnb.love/file/4ca253b91deb954428325.jpg">  </p><p>5.脚本目录查询 看是否有图上三个目录 </p><p><img src="https://www.wcnb.love/file/31ff3014e1dc0fda6120e.jpg">  </p><p>6.新建 任务 </p><blockquote><p>名称 哔哩哔哩抽奖</p></blockquote><blockquote><p>命令  task LotteryAutoScript_start.sh</p></blockquote><blockquote><p>定时 0 *&#x2F;6 * * *</p></blockquote><p><img src="https://www.wcnb.love/file/f492d6bc283d8f08c4f47.jpg">  </p><p>7.新建 任务</p><blockquote><p>名称 哔哩哔哩中奖检测</p></blockquote><blockquote><p>命令 task LotteryAutoScript_check.sh</p></blockquote><blockquote><p>定时 0 *&#x2F;2 * * *</p></blockquote><p>8.新建 任务</p><blockquote><p>名称 哔哩哔哩清理动态-取关 </p></blockquote><blockquote><p>命令 task LotteryAutoScript_clean</p></blockquote><blockquote><p>定时 0 0 *&#x2F;30 * *</p></blockquote><h2 id="编辑CK"><a href="#编辑CK" class="headerlink" title="编辑CK"></a>编辑CK</h2><p>脚本管理 第一行 +号里面 env.js 编辑  填入你自己的cookie</p><p><img src="https://www.wcnb.love/file/3eabee47476d88065bca8.jpg">  </p><h2 id="抓包"><a href="#抓包" class="headerlink" title="抓包"></a>抓包</h2><p>抓包工具 <a href="https://wwi.lanzoup.com/iBD2W0wsmz8b">点我下载</a></p><p>怎么抓bilibili包ck呢？ 很简单 抓网页 </p><p>1.打开抓包工具 输入网址</p><blockquote><p><a href="https://m.bilibili.com/">https://m.bilibili.com</a></p></blockquote><p>2.登录bilibili 账号</p><p>3.下角三条线 点击工具箱</p><p><img src="https://www.wcnb.love/file/3b424ee19c4aed8b2bde6.jpg">  </p><p>4.开发者工具-点击 <strong>cookies</strong> 里面就是ck</p><p><img src="https://www.wcnb.love/file/19351ab948012ce668070.jpg">  </p><p>把它填入 env.js 文件就ok  教程结束</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>青龙面板</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>哔哩哔哩</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>cloudflare内网穿透</title>
+    <link href="/posts/2.html"/>
+    <url>/posts/2.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="准备工作："><a href="#准备工作：" class="headerlink" title="准备工作："></a>准备工作：</h2><ul><li><p>一个cloudflare.com的账号，账号内，有一个域名</p></li><li><p>linux系统 arm、arm64、x86、amd64平台都可以。</p></li></ul><h2 id="开始部署"><a href="#开始部署" class="headerlink" title="开始部署:"></a>开始部署:</h2><h2 id="1-下载程序到服务器里"><a href="#1-下载程序到服务器里" class="headerlink" title="1. 下载程序到服务器里:"></a>1. 下载程序到服务器里:</h2><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">wget https:<span class="hljs-regexp">//g</span>hproxy.com<span class="hljs-regexp">/https:/</span><span class="hljs-regexp">/github.com/</span>cloudflare<span class="hljs-regexp">/cloudflared/</span>releases<span class="hljs-regexp">/download/</span><span class="hljs-number">2023.7</span>.<span class="hljs-number">3</span><span class="hljs-regexp">/cloudflared-linux-amd64 -O /u</span>sr<span class="hljs-regexp">/bin/</span>cloudflared<br></code></pre></td></tr></table></figure><p>其他版本，可自行 <a href="https://github.com/cloudflare/cloudflared/releases/tag/2023.7.3">跳转下载</a> ，记得下载对应的版本哈。</p><h2 id="2-在终端输入，非root用户请在前面加上-sudo"><a href="#2-在终端输入，非root用户请在前面加上-sudo" class="headerlink" title="2.在终端输入，非root用户请在前面加上 sudo"></a>2.在终端输入，非root用户请在前面加上 <strong>sudo</strong></h2><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs awk">chmod -R <span class="hljs-number">0777</span> <span class="hljs-regexp">/usr/</span>bin/cloudflared<br>cloudflared login<br></code></pre></td></tr></table></figure><h4 id="此时终端会显示一个https-的网址，复制到浏览器打开，登录自己的cloudflare账号，选择要绑定的域名，并获取自动下载的授权文件"><a href="#此时终端会显示一个https-的网址，复制到浏览器打开，登录自己的cloudflare账号，选择要绑定的域名，并获取自动下载的授权文件" class="headerlink" title="此时终端会显示一个https:&#x2F;&#x2F; 的网址，复制到浏览器打开，登录自己的cloudflare账号，选择要绑定的域名，并获取自动下载的授权文件"></a>此时终端会显示一个https:&#x2F;&#x2F; 的网址，复制到浏览器打开，登录自己的cloudflare账号，选择要绑定的域名，并获取自动下载的授权文件</h4><p><img src="https://www.wcnb.love/file/cf413f28442f6c87d89ea.png" alt="选择域名"></p><p><img src="https://www.wcnb.love/file/b82836fe5aad67e84823b.png" alt="授权域名"></p><h2 id="3-创建一个隧道"><a href="#3-创建一个隧道" class="headerlink" title="3.创建一个隧道"></a>3.创建一个隧道</h2><p>例如 我要创造一个名称为 abc 的隧道</p><figure class="highlight gauss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs gauss">cloudflared tunnel <span class="hljs-keyword">create</span> abc <span class="hljs-meta">#abc是你的隧道id，可以自定义</span><br></code></pre></td></tr></table></figure><p>得到隧道的id。</p><p><img src="https://www.wcnb.love/file/e4fd306ebe52997ab492c.jpg" alt="隧道"></p><h2 id="4-配置文件config-yml"><a href="#4-配置文件config-yml" class="headerlink" title="4.配置文件config.yml"></a>4.配置文件config.yml</h2><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs arduino">vi config.yml<br></code></pre></td></tr></table></figure><p>例如:</p><figure class="highlight nestedtext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs nestedtext"><span class="hljs-attribute">tunnel</span><span class="hljs-punctuation">:</span> <span class="hljs-string">275fe7bb-5948-45a0-bda7-30da7d154ddf</span><br><span class="hljs-attribute">credentials-file</span><span class="hljs-punctuation">:</span> <span class="hljs-string">/root/.cloudflared/275fe7bb-5948-45a0-bda7-30da7d154ddf.json</span><br><br><span class="hljs-attribute">ingress</span><span class="hljs-punctuation">:</span><br>  <span class="hljs-bullet">-</span> <span class="hljs-string">hostname: abc.dearjoe.top</span><br>    <span class="hljs-attribute">service</span><span class="hljs-punctuation">:</span> <span class="hljs-string">http://127.0.0.1</span><br>  <span class="hljs-bullet">-</span> <span class="hljs-string">service: http_status:404</span><br></code></pre></td></tr></table></figure><h4 id="下面的信息创造隧道后会显示"><a href="#下面的信息创造隧道后会显示" class="headerlink" title="下面的信息创造隧道后会显示"></a>下面的信息创造隧道后会显示</h4><blockquote><p>tunnel: 填入你隧道里面的配置<br>credentials-file: 填入你隧道里面的配置<br>hostname: abc.dearjoe.top 中 abc是二级域名名称，dearjoe.top 是顶级域名（也就是你在cloudflared关联的域名）<br>service: <a href="http://127.0.0.1/">http://127.0.0.1</a> 这是外网https穿透访问的页面地址，可加端口如<a href="http://127.0.0.1:5700/">http://127.0.0.1:5700</a> (请先保证此页面在内网中http可访问)</p></blockquote><h3 id="把这个配置文档放置到-etc-cloudflared-下面"><a href="#把这个配置文档放置到-etc-cloudflared-下面" class="headerlink" title="把这个配置文档放置到&#x2F;etc&#x2F;cloudflared&#x2F;下面"></a>把这个配置文档放置到&#x2F;etc&#x2F;cloudflared&#x2F;下面</h3><p>在终端输入</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs awk">mkdir -p <span class="hljs-regexp">/etc/</span>cloudflared/<br>cp config.yml <span class="hljs-regexp">/etc/</span>cloudflared/<br>cloudflared tunnel route dns abc abc.dearjoe.top <span class="hljs-comment">#注意要改这里</span><br></code></pre></td></tr></table></figure><blockquote><p>最后一条 cloudflared tunnel route dns 隧道id 域名全称</p></blockquote><blockquote><p>上面面命令中abc是指前面创建的隧道名称，abc.dearjoe.top是前面config.yml文件中配置的二级域名</p></blockquote><h2 id="5-运行自启动安装"><a href="#5-运行自启动安装" class="headerlink" title="5.运行自启动安装"></a>5.运行自启动安装</h2><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs mipsasm"><span class="hljs-keyword">cloudflared </span>service <span class="hljs-keyword">install </span>   <span class="hljs-comment">#运行自启动安装</span><br>systemctl start <span class="hljs-keyword">cloudflared </span>   <span class="hljs-comment">#启动服务</span><br>systemctl status <span class="hljs-keyword">cloudflared </span>  <span class="hljs-comment">#查看运行状态  可随时ctrl + c 中止。</span><br></code></pre></td></tr></table></figure><p><img src="https://www.wcnb.love/file/0dd3b0a6cee73302c2641.png"></p><p><img src="https://www.wcnb.love/file/597ba033ee778f40b183f.png"></p><h3 id="搭建完毕，在浏览器打开-你的域名即可"><a href="#搭建完毕，在浏览器打开-你的域名即可" class="headerlink" title="搭建完毕，在浏览器打开 你的域名即可"></a>搭建完毕，在浏览器打开 你的域名即可</h3><p>教程结束  有能力的老板 咳咳 疯狂暗示</p><p><img src="https://www.wcnb.love/file/c61cfaf1006a772e6b285.png" alt="赞赏"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>cloudflare</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>cloudflare</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Cloudflare加速解析</title>
+    <link href="/posts/1.html"/>
+    <url>/posts/1.html</url>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul><li><p>总所周知，Cloudflare免费套餐国内用的话是减速器</p></li><li><p>今天我们这篇博客就是教大家怎么加速Cloudflare。</p></li></ul><h3 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h3><h4 id="注册cloudflare"><a href="#注册cloudflare" class="headerlink" title="注册cloudflare"></a>注册cloudflare</h4><p>先注册Cloudflare账号，<a href="https://dash.cloudflare.com/login">点我注册</a>，然后添加你的域名，根据提示修改Cloudflare 名称服务器。</p><p><img src="https://www.wcnb.love/file/8fdfbc2f38bac899783dd.jpg"></p><h4 id="修改NS"><a href="#修改NS" class="headerlink" title="修改NS"></a>修改NS</h4><p>这里拿阿里云举列子，打进入阿里云打开域名管理，点击修改NS服务器，把它修改为上面那张图的NS。</p><p><img src="https://www.wcnb.love/file/56515740b400cc6b0bc9a.jpg"></p><h3 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h3><h4 id="解析域名"><a href="#解析域名" class="headerlink" title="解析域名"></a>解析域名</h4><p>打开Cloudflare点击你新增加的域名，点击DNS记录，添加记录，一级二级随便你，我这边演示个一级的，打开<strong>代理</strong> 最后提交</p><p><img src="https://www.wcnb.love/file/986a3511c0ec630bacef4.jpg"></p><h3 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h3><h4 id="改回原服务器的NS"><a href="#改回原服务器的NS" class="headerlink" title="改回原服务器的NS"></a>改回原服务器的NS</h4><p>还是打开阿里云域名管理，修改DNS，修改为原来服务器的DNS即可，其他平台也是一样操作哈。</p><h3 id="第四步"><a href="#第四步" class="headerlink" title="第四步"></a>第四步</h3><h4 id="接入Cloudflare加速"><a href="#接入Cloudflare加速" class="headerlink" title="接入Cloudflare加速"></a>接入Cloudflare加速</h4><p>打开阿里云域名解析，其他平台同理，添加两条CNAME解析。</p><ol><li>第一条国内解析</li></ol><p>记录类型选择 <strong>CNAME</strong> ，主机记录 @ ，(二级域名的话那就填二级域名的记录)，解析请求来源为 <strong>默认</strong> ，解析记录值填写 <strong>cf.wcnb.love</strong> ,</p><p><img src="https://www.wcnb.love/file/0fd298487cfcd660ca2c2.jpg"></p><ol start="2"><li>第二条境外解析</li></ol><p>记录类型选择 <strong>CNAME</strong> ，主机记录 @ ，(二级域名的话那就填二级域名的记录)，解析请求来源为 <strong>境外</strong> ，记录着填写 <strong>你的域名全称</strong>.cdn.cloudflare.net ，比如我现在解析的域名是，<strong>ikun6.vip</strong> ，那我解析值就填写 <strong>ikun6.vip.cdn.cloudflare.net</strong> ，提交即可 </p><p><img src="https://www.wcnb.love/file/5aaed86e50f54015bb7bf.jpg"></p><p>最后这样子就好了</p><p><img src="https://www.wcnb.love/file/04d3a6d705b155f4abd8f.jpg"></p><h3 id="怎么看加速成功没有呢"><a href="#怎么看加速成功没有呢" class="headerlink" title="怎么看加速成功没有呢"></a>怎么看加速成功没有呢</h3><p>进入测速网，<a href="https://www.itdog.cn/http/">点我进入</a> 输入你的域名，很绿，下面很多ip的话就是接入成功。</p><p>教程结束  有能力的老板 咳咳 疯狂暗示</p><p><img src="https://www.wcnb.love/file/c61cfaf1006a772e6b285.png" alt="赞赏"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>cloudflare</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>cloudflare</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
