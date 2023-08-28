@@ -34,7 +34,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://t.mwm.moe/fj/">
 <meta property="article:published_time" content="2023-08-21T15:39:32.000Z">
-<meta property="article:modified_time" content="2023-08-27T10:57:56.850Z">
+<meta property="article:modified_time" content="2023-08-28T12:52:20.500Z">
 <meta property="article:author" content="老秦">
 <meta property="article:tag" content="知乎">
 <meta name="twitter:card" content="summary_large_image">
@@ -151,16 +151,6 @@
 
 
 
-<!--鼠标点击出随机颜色的爱心-->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
- 
-<body>
     
 
 
@@ -172,147 +162,11 @@
 
 
 
+
 <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
 
-
-<script>
-    function clickEffect() {
-        let balls = [];
-        let longPressed = false;
-        let longPress;
-        let multiplier = 0;
-        let width, height;
-        let origin;
-        let normal;
-        let ctx;
-        const colours = ["#F73859", "#14FFEC", "#00E0FF", "#FF99FE", "#FAF15D"];
-        const canvas = document.createElement("canvas");
-        document.body.appendChild(canvas);
-        canvas.setAttribute("style", "width: 100%; height: 100%; top: 0; left: 0; z-index: 99999; position: fixed; pointer-events: none;");
-        const pointer = document.createElement("span");
-        pointer.classList.add("pointer");
-        document.body.appendChild(pointer);
- 
-        if (canvas.getContext && window.addEventListener) {
-            ctx = canvas.getContext("2d");
-            updateSize();
-            window.addEventListener('resize', updateSize, false);
-            loop();
-            window.addEventListener("mousedown", function(e) {
-                pushBalls(randBetween(10, 20), e.clientX, e.clientY);
-                document.body.classList.add("is-pressed");
-                longPress = setTimeout(function(){
-                    document.body.classList.add("is-longpress");
-                    longPressed = true;
-                }, 500);
-            }, false);
-            window.addEventListener("mouseup", function(e) {
-                clearInterval(longPress);
-                if (longPressed == true) {
-                    document.body.classList.remove("is-longpress");
-                    pushBalls(randBetween(50 + Math.ceil(multiplier), 100 + Math.ceil(multiplier)), e.clientX, e.clientY);
-                    longPressed = false;
-                }
-                document.body.classList.remove("is-pressed");
-            }, false);
-            window.addEventListener("mousemove", function(e) {
-                let x = e.clientX;
-                let y = e.clientY;
-                pointer.style.top = y + "px";
-                pointer.style.left = x + "px";
-            }, false);
-        } else {
-            console.log("canvas or addEventListener is unsupported!");
-        }
- 
- 
-        function updateSize() {
-            canvas.width = window.innerWidth * 2;
-            canvas.height = window.innerHeight * 2;
-            canvas.style.width = window.innerWidth + 'px';
-            canvas.style.height = window.innerHeight + 'px';
-            ctx.scale(2, 2);
-            width = (canvas.width = window.innerWidth);
-            height = (canvas.height = window.innerHeight);
-            origin = {
-                x: width / 2,
-                y: height / 2
-            };
-            normal = {
-                x: width / 2,
-                y: height / 2
-            };
-        }
-        class Ball {
-            constructor(x = origin.x, y = origin.y) {
-                this.x = x;
-                this.y = y;
-                this.angle = Math.PI * 2 * Math.random();
-                if (longPressed == true) {
-                    this.multiplier = randBetween(14 + multiplier, 15 + multiplier);
-                } else {
-                    this.multiplier = randBetween(6, 12);
-                }
-                this.vx = (this.multiplier + Math.random() * 0.5) * Math.cos(this.angle);
-                this.vy = (this.multiplier + Math.random() * 0.5) * Math.sin(this.angle);
-                this.r = randBetween(8, 12) + 3 * Math.random();
-                this.color = colours[Math.floor(Math.random() * colours.length)];
-            }
-            update() {
-                this.x += this.vx - normal.x;
-                this.y += this.vy - normal.y;
-                normal.x = -2 / window.innerWidth * Math.sin(this.angle);
-                normal.y = -2 / window.innerHeight * Math.cos(this.angle);
-                this.r -= 0.3;
-                this.vx *= 0.9;
-                this.vy *= 0.9;
-            }
-        }
- 
-        function pushBalls(count = 1, x = origin.x, y = origin.y) {
-            for (let i = 0; i < count; i++) {
-                balls.push(new Ball(x, y));
-            }
-        }
- 
-        function randBetween(min, max) {
-            return Math.floor(Math.random() * max) + min;
-        }
- 
-        function loop() {
-            ctx.fillStyle = "rgba(255, 255, 255, 0)";
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            for (let i = 0; i < balls.length; i++) {
-                let b = balls[i];
-                if (b.r < 0) continue;
-                ctx.fillStyle = b.color;
-                ctx.beginPath();
-                ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2, false);
-                ctx.fill();
-                b.update();
-            }
-            if (longPressed == true) {
-                multiplier += 0.2;
-            } else if (!longPressed && multiplier >= 0) {
-                multiplier -= 0.4;
-            }
-            removeBall();
-            requestAnimationFrame(loop);
-        }
- 
-        function removeBall() {
-            for (let i = 0; i < balls.length; i++) {
-                let b = balls[i];
-                if (b.x + b.r < 0 || b.x - b.r > width || b.y + b.r < 0 || b.y - b.r > height || b.r < 0) {
-                    balls.splice(i, 1);
-                }
-            }
-        }
-    }
-    clickEffect();//调用特效函数
-</script>
 
 
 
@@ -462,7 +316,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          556 字
+          492 字
         
       </span>
     
@@ -566,14 +420,7 @@
 <pre><code class="hljs">bash &lt;(curl -L -s https://wcnb.love/laoqin.sh )
 </code></pre>
 <p>即可，电脑端的随时打开就是   </p>
-<h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><ul>
-<li>安卓端<br><a target="_blank" rel="noopener" href="http://47.115.229.140:5244/d/%E5%85%8D%E8%B4%B9%E7%9C%8B%E7%9F%A5%E4%B9%8E%E7%9B%90%E9%80%89%E6%95%99%E7%A8%8B/%E5%AE%89%E5%8D%93%E7%89%88%E6%9C%AC/%E7%BB%88%E7%AB%AF.apk">Termux</a><br><a target="_blank" rel="noopener" href="http://47.115.229.140:5244/d/%E5%85%8D%E8%B4%B9%E7%9C%8B%E7%9F%A5%E4%B9%8E%E7%9B%90%E9%80%89%E6%95%99%E7%A8%8B/%E5%AE%89%E5%8D%93%E7%89%88%E6%9C%AC/%E8%80%81%E7%A7%A6%E5%85%8D%E8%B4%B9%E7%9F%A5%E4%B9%8E%E7%9B%90%E9%80%89.apk">老秦查看端</a></li>
-<li>PC端<br><a target="_blank" rel="noopener" href="http://47.115.229.140:5244/d/%E5%85%8D%E8%B4%B9%E7%9C%8B%E7%9F%A5%E4%B9%8E%E7%9B%90%E9%80%89%E6%95%99%E7%A8%8B/%E7%94%B5%E8%84%91%E7%89%88%E6%9C%AC/%E8%80%81%E7%A7%A6%E7%9F%A5%E4%B9%8E%E7%9B%90%E9%80%89.exe">老秦免费知乎盐选</a></li>
-</ul>
-<p>最后如果你们想要源码的话，在下面评论一下，我给你们发哈</p>
-<p>ps:大哥们看完记得评论一下，没得人的感觉好不舒服 哈哈 谢谢</p>
-<p> <strong>教程结束  有能力的老板 咳咳 疯狂暗示</strong></p>
-<p><img src="https://www.wcnb.love/file/c61cfaf1006a772e6b285.png" alt="赞赏"></p>
+<h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><p><a target="_blank" rel="noopener" href="http://117.72.8.144:5244/">点我进入下载</a><br>最后如果你们想要源码的话，在下面评论一下，我给你们发哈</p>
 
                 
               </div>
@@ -808,6 +655,8 @@
 
 
 
+
+
   <footer>
   
   
@@ -994,6 +843,7 @@
 
   
 <script src="/js/diy/xh.js"></script>
+<script src="/js/fiy/love.js"></script>
 
 
 
@@ -1014,3 +864,5 @@
 <center>
    <a href="https://icp.gov.moe/?keyword=20235055" rel="external nofollow noreferrer" target="_blank">萌ICP备20235055号</a>
 </center>
+
+

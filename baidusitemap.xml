@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blog.wcnb.love/posts/3.html</loc>
-    <lastmod>2023-08-27</lastmod>
+    <loc>https://blog.wcnb.love/posts/1.html</loc>
+    <lastmod>2023-08-28</lastmod>
   </url>
   <url>
     <loc>https://blog.wcnb.love/posts/4.html</loc>
+    <lastmod>2023-08-28</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.wcnb.love/posts/2.html</loc>
+    <lastmod>2023-08-28</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.wcnb.love/posts/3.html</loc>
     <lastmod>2023-08-27</lastmod>
   </url>
   <url>
@@ -14,14 +22,6 @@
   </url>
   <url>
     <loc>https://blog.wcnb.love/posts/8.html</loc>
-    <lastmod>2023-08-27</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.wcnb.love/posts/2.html</loc>
-    <lastmod>2023-08-27</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.wcnb.love/posts/1.html</loc>
     <lastmod>2023-08-27</lastmod>
   </url>
   <url>
