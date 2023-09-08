@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>最强学习通签到助手-翘课神器</title>
+    <link href="/posts/10.html"/>
+    <url>/posts/10.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我以前读大学的时候，用的学习通，然后那时候就已经在弄签到这个东西了，不过，那时候做的是网页端签到，这么久了，以前的肯定是不能用了的，昨天有人突然从以前做的签到助手里面联系到了我，所以今天就更新一下学习通签到，刷课啥的，等我研究研究再说~</p><h2 id="软件介绍"><a href="#软件介绍" class="headerlink" title="软件介绍"></a>软件介绍</h2><p>好签助手-学习通签到Android 支持所有类型签到一键签到，包括二维码签到。课程抢答、未交作业提醒、后台静默签到、查看全班签到图片、跳转腾讯会议、代签…</p><h2 id="软件特点"><a href="#软件特点" class="headerlink" title="软件特点"></a>软件特点</h2><p>当然是支持自动二维码签到了，可以说是翘课神器！！！仅需让舍友用咱们软件扫码签到成功，那么就可以把二维码的签到密钥共享给所有人（无视10s过期），其他人只需要无脑一键签到即可。也会自动复制获取的enc签到密钥，可以分享给他人，不用我们软件也可以拿着enc签到。 后台静默签到，给自启动权限即可，无需担心被杀。全网最优的签到逻辑，实时监测签到人数。签到人数大于未签人数时，才签到，防止老师反向签到（来的不签，不来的签） 抢答功能全网极限优化仅需0.01s 查看签到列表 更多功能还在开发中….</p><h2 id="软件功能"><a href="#软件功能" class="headerlink" title="软件功能"></a>软件功能</h2><ul><li>后台静默签到</li><li>多账号代签（一键签多个账号）</li><li>抢答 （这个功能应该没多少人用吧，哈哈）</li><li>查看签到列表</li><li>拍照签到</li><li>定位签到</li><li>自动签到</li><li>手势签到</li><li>签到码签到</li><li>日志系统</li><li>未交作业提醒</li></ul><h4 id="后台静默签到"><a href="#后台静默签到" class="headerlink" title="后台静默签到"></a>后台静默签到</h4><p>不需要打开软件，软件在后台低功耗监听学习通在手机状态栏的签到通知，监测到签到之后在后台静默执行签到流程.</p><p><img src="https://www.wcnb.love/file/f6e107cfca7d1e7bab047.png"></p><h4 id="多账号代签（一键签多个账号）"><a href="#多账号代签（一键签多个账号）" class="headerlink" title="多账号代签（一键签多个账号）"></a>多账号代签（一键签多个账号）</h4><p><img src="https://www.wcnb.love/file/8fb2484fc7a5a0efffa4b.jpg"></p><h4 id="抢答"><a href="#抢答" class="headerlink" title="抢答"></a>抢答</h4><p>新更换IM通讯协议，与最新版学习通采用相同的协议，获取最新任务的速度和学习通客户端一样，抢答功能从收到抢答任务到抢答最多耗时1ms，其余时间全部网络通信时间。抢答已经优化到你手机的极限了，不可能比我做的软件再快的方式了，没别人快是网络延时问题以及手机性能问题</p><p><img src="https://www.wcnb.love/file/76169e27a01d479698e9e.png"></p><h4 id="查看签到列表"><a href="#查看签到列表" class="headerlink" title="查看签到列表"></a>查看签到列表</h4><p>越权看到教师那边的签到信息</p><p><img src="https://www.wcnb.love/file/43f797b887c696cec7715.jpg"></p><p><img src="https://www.wcnb.love/file/bd89796b8b834730730e1.jpg"></p><h4 id="拍照签到"><a href="#拍照签到" class="headerlink" title="拍照签到"></a>拍照签到</h4><ol><li>不上传图片，教师端：(教师端不显示图片)</li></ol><p><img src="https://www.wcnb.love/file/daed931bf0d4e3a351201.jpg"></p><ol start="2"><li>从相册选择任意图片，教师端正常显示</li></ol><p><img src="https://www.wcnb.love/file/ee5d810acc7510387b0dc.jpg"></p><h4 id="定位签到（真正的）自定义地址"><a href="#定位签到（真正的）自定义地址" class="headerlink" title="定位签到（真正的）自定义地址:"></a>定位签到（真正的）自定义地址:</h4><p>这里的经纬度是从学习通后端拿到的数据，是签到范围的中心点，所以地址填什么都能签到成功！（经纬度是判断是否在范围内的依据）</p><p><img src="https://www.wcnb.love/file/9ef8d329e5e42c2e841c0.jpg"></p><h4 id="自动签到"><a href="#自动签到" class="headerlink" title="自动签到"></a>自动签到</h4><p>在我的页面打开开关后，即可进入懒人模式：除了拍照签到，其他签到在打开软件后会自动签到。</p><p><img src="https://www.wcnb.love/file/368ab121ff53c0fa0b480.jpg"></p><h4 id="手势签到和签到码签到"><a href="#手势签到和签到码签到" class="headerlink" title="手势签到和签到码签到"></a>手势签到和签到码签到</h4><p>这种签到也是一键签到，不用你输入签到码和手势，但是你可以将签到码和手势分享给其他人</p><p>签到码和手势都是从学习通后端直接获取，没毛病老弟！！</p><p><img src="https://www.wcnb.love/file/007f490f8d12fa8efb99a.jpg"></p><h4 id="日志系统"><a href="#日志系统" class="headerlink" title="日志系统"></a>日志系统</h4><p><img src="https://www.wcnb.love/file/fb759b7f8a82e95a26127.png"></p><h4 id="未交作业提醒"><a href="#未交作业提醒" class="headerlink" title="未交作业提醒"></a>未交作业提醒</h4><p><img src="https://www.wcnb.love/file/6e8d03d418b040c6b8e86.jpg"></p><p>附上你们喜欢的下载链接</p><blockquote><p><a href="https://wp.wcnb.love/s/76Id">https://wp.wcnb.love/s/76Id</a></p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习通</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>学习通</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>免费翻墙机场+BUG翻墙APP</title>
     <link href="/posts/9.html"/>
     <url>/posts/9.html</url>
